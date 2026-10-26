@@ -6,7 +6,7 @@ Programación Web · Ing. Adelina Martínez Nieto · Instituto Tecnológico de O
 ## 👥 Integrantes (Equipo 14)
 
 - Sixto Morales Angel
-- _Nombre completo del segundo integrante_
+- Poblete Hernandez Jhonatan Ivan
 
 ## 🔗 Enlaces
 
