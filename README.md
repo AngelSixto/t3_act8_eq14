@@ -11,7 +11,7 @@ Programación Web · Ing. Adelina Martínez Nieto · Instituto Tecnológico de O
 ## 🔗 Enlaces
 
 - **Proyecto desplegado en el VPS:** http://157.180.30.55/t3_act8_eq14/
-- > El VPS (Hetzner Cloud, Ubuntu 24.04 + Nginx) se mantendrá activo hasta la fecha de calificación.
+- > El VPS (Hetzner Cloud, Ubuntu 24.04 + Nginx) se mantendrá activo el tiempo necesario.
 - **Repositorio:** https://github.com/AngelSixto/t3_act8_eq14
 - **Mockup en Figma (Actividad 7):** https://www.figma.com/design/FqsYMfdiBLF9Q6yDEMyq3D/Sonrisas?node-id=0-1&t=vTtxYmZ2qLI3tYO8-1
 
@@ -50,6 +50,7 @@ Otros usuarios válidos: https://dummyjson.com/users (campos `username` y `passw
 - Login con `POST /auth/login`. Se aceptan el nombre de usuario o el correo.
 - Mensaje claro si los datos son incorrectos ("Usuario o contraseña incorrectos") o si no hay conexión.
 - Los datos del usuario se guardan en el estado (`useState`) y en `sessionStorage` para no perder la sesión al recargar.
+![LOGIN](Capturas/LOGIN.png)
 
 **Fase 2 – Sistema simulado**
 - Sidebar con Panel principal, Citas, Pacientes y Dentistas. Las dos últimas son opciones simuladas.
