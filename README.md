@@ -50,7 +50,6 @@ Otros usuarios válidos: https://dummyjson.com/users (campos `username` y `passw
 - Login con `POST /auth/login`. Se aceptan el nombre de usuario o el correo.
 - Mensaje claro si los datos son incorrectos ("Usuario o contraseña incorrectos") o si no hay conexión.
 - Los datos del usuario se guardan en el estado (`useState`) y en `sessionStorage` para no perder la sesión al recargar.
-![LOGIN](Capturas/LOGIN.png)
 
 **Fase 2 – Sistema simulado**
 - Sidebar con Panel principal, Citas, Pacientes y Dentistas. Las dos últimas son opciones simuladas.
@@ -66,6 +65,15 @@ Otros usuarios válidos: https://dummyjson.com/users (campos `username` y `passw
 - **Editar** cita, con confirmación antes de guardar.
 - **Eliminar** cita, con confirmación antes de eliminar.
 - **Ver** el detalle de una cita.
+
+
+## 📷 Capturas del mockup en FIGMA
+![LOGIN](Capturas/LOGIN.png)
+
+![DASHBOARD](Capturas/DASHBOARD.png)
+
+![CITAS](Capturas/CITAS.png)
+![FORMULARIO-CITAS](Capturas/FORMULARIO-CITAS.png)
 
 ## 🗂️ Estructura del proyecto
 
