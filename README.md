@@ -11,6 +11,7 @@ Programación Web · Ing. Adelina Martínez Nieto · Instituto Tecnológico de O
 ## 🔗 Enlaces
 
 - **Proyecto desplegado en el VPS:** http://157.180.30.55/t3_act8_eq14/
+- > El VPS (Hetzner Cloud, Ubuntu 24.04 + Nginx) se mantendrá activo hasta la fecha de calificación.
 - **Repositorio:** https://github.com/AngelSixto/t3_act8_eq14
 - **Mockup en Figma (Actividad 7):** https://www.figma.com/proto/FqsYMfdiBLF9Q6yDEMyq3D/Sonrisas?node-id=18-2&starting-point-node-id=21%3A2
 
@@ -93,6 +94,7 @@ Abrir http://localhost:5173/t3_act8_eq14/
 ```bash
 npm run build
 scp -r dist/* USUARIO@IP_DEL_VPS:/var/www/html/t3_act8_eq14/
+ssh USUARIO@IP_DEL_VPS "chmod -R a+rX /var/www/html/t3_act8_eq14"
 ```
 
-El `base` de `vite.config.js` ya está configurado como `/t3_act8_eq14/`. La navegación usa parámetros de la URL (`?vista=...`), así que no hace falta configurar reglas extra en Nginx.
+> El `chmod` es necesario: al subir desde Windows, la carpeta `assets/` queda con permisos restrictivos y Nginx responde 404 en el JS y el CSS. El servidor usa Ubuntu con Nginx sirviendo `/var/www/html`.
