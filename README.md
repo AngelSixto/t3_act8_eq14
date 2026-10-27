@@ -11,7 +11,7 @@ Programación Web · Ing. Adelina Martínez Nieto · Instituto Tecnológico de O
 ## 🔗 Enlaces
 
 - **Proyecto desplegado en el VPS:** http://157.180.30.55/t3_act8_eq14/
-- **Repositorio:** https://github.com/USUARIO/t3_act8_eq14
+- **Repositorio:** https://github.com/AngelSixto/t3_act8_eq14
 - **Mockup en Figma (Actividad 7):** https://www.figma.com/proto/FqsYMfdiBLF9Q6yDEMyq3D/Sonrisas?node-id=18-2&starting-point-node-id=21%3A2
 
 ## 📝 Descripción
