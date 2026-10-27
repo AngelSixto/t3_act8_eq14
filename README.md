@@ -11,7 +11,7 @@ Programación Web · Ing. Adelina Martínez Nieto · Instituto Tecnológico de O
 ## 🔗 Enlaces
 
 - **Proyecto desplegado en el VPS:** http://157.180.30.55/t3_act8_eq14/
-- > El VPS (Hetzner Cloud, Ubuntu 24.04 + Nginx) se mantendrá activo el tiempo necesario.
+- > VPS (Hetzner Cloud, Ubuntu 24.04 + Nginx).
 - **Repositorio:** https://github.com/AngelSixto/t3_act8_eq14
 - **Mockup en Figma (Actividad 7):** https://www.figma.com/design/FqsYMfdiBLF9Q6yDEMyq3D/Sonrisas?node-id=0-1&t=vTtxYmZ2qLI3tYO8-1
 
